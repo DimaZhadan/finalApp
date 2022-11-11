@@ -216,7 +216,7 @@
       padding-left: 0;
    }
 
-   .back-wraper{
+   .back-wraper {
       margin: 96px 0 0 0;
    }
 }
@@ -347,5 +347,9 @@
 
    .benefit-item {
       width: 50%;
+   }
+
+   .margin-left19 {
+      margin-left: 19px;
    }
 }

@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import GoogleMapReact from 'google-map-react';
 
-
 export default function ({ singleJob }) {
 
    function calcDays() {

@@ -1,9 +1,6 @@
 import Link from "next/link";
 import React from 'react';
 
-import Pagination from '@etchteam/next-pagination';
-import '@etchteam/next-pagination/dist/index.css'
-
 const Index = ({ jobs }) => {
 
    function calcDays(date) {
@@ -21,7 +18,7 @@ const Index = ({ jobs }) => {
                      <div className="job-logo">
                         <img src={job.pictures[0]} alt="Logo" className="w-20 h-20 object-cover rounded-full" />
                      </div>
-                     <div className="ml-6">
+                     <div className="ml-6 margin-left19">
                         <div>
                            <Link href={`/jobs/${job.id}`}>
                               <span className="text-xl font-bold title_text_color title_width">{job.title}</span>
@@ -74,9 +71,6 @@ const Index = ({ jobs }) => {
                   </div>
                </div>
             )}
-            <div className="pagination-wrapper mt-12">
-               <Pagination total={100} />
-            </div>
          </div>
       </div>
    )
