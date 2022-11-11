@@ -353,3 +353,9 @@
       margin-left: 19px;
    }
 }
+
+@media (max-width: 370px) {
+   .title_width {
+      width: 210px;
+   }
+}
